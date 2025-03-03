@@ -1,4 +1,4 @@
-from engine import Deck, Player
+from GAME.engine import Deck, Player
 
 """ Main game loop """
 
