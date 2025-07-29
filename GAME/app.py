@@ -17,7 +17,7 @@ def main():
     while deck.cards:
         print(f"\n{current_player.name}'s turn")
         current_player.draw_card(deck)
-        print(f"Your hand: {[str(card) for card in current_player.hand]}")
+        print(f"Your hand: {[str(card) for card in current_player.hand]}") #
 
         while True:
             try:
